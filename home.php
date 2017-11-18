@@ -1,3 +1,7 @@
+<!-- HOME,
+Será la plantilla que mostrará WordPress en caso de tener activa la opción Mostrar página estática como página de inicio. Este archivo está pensado para casos en los que la página de inicio es una página estática, como puede ser la página de inicio de un site corporativo.
+-->
+
 <!-- Archivo de cabecera global de Wordpress -->
 <?php get_header(); ?>
 <!-- Listado de posts -->

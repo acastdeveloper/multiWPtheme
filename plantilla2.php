@@ -3,6 +3,10 @@
 * Template Name: plantilla2
 */
 ?>
+
+    <!-- PAGINA DE PLANTILLA2 -->
+
+
     <!-- Archivo de cabecera gobal de Wordpress -->
     <?php get_header(); ?>
     <!-- Contenido de página de inicio -->

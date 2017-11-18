@@ -1,3 +1,7 @@
+<!-- Plantilla por defecto para un solo post   -->
+
+
+
 <!-- Archivo de cabecera global de Wordpress -->
 <?php get_header(); ?>
 <!-- Contenido del post -->

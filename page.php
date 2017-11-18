@@ -1,22 +1,22 @@
-<?php
-/**
-* Template Name: plantilla1
-*/
-?>
-    <!-- Archivo de cabecera gobal de Wordpress -->
-    <?php get_header(); ?>
-    <!-- Contenido de página de inicio -->
-    <?php if ( have_posts() ) : the_post(); ?>
-    <section>
-        <h1>
-            <?php the_title(); ?>
-        </h1>
-        <?php the_content(); ?>
+<!-- PAGE, paginan por defecto de cualquier pagina, siempre y cuando no se le haya especificado una plantilla -->
 
 
-    </section>
-    <?php endif; ?>
-    <!-- Archivo de barra lateral por defecto -->
-    <?php get_sidebar(); ?>
-    <!-- Archivo de pié global de Wordpress -->
-    <?php get_footer(); ?>
+
+
+<!-- Archivo de cabecera gobal de Wordpress -->
+<?php get_header(); ?>
+<!-- Contenido de página de inicio -->
+<?php if ( have_posts() ) : the_post(); ?>
+<section>
+    <h1>
+        <?php the_title(); ?>
+    </h1>
+    <?php the_content(); ?>
+
+
+</section>
+<?php endif; ?>
+<!-- Archivo de barra lateral por defecto -->
+<?php get_sidebar(); ?>
+<!-- Archivo de pié global de Wordpress -->
+<?php get_footer(); ?>

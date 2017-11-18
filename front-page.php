@@ -1,7 +1,11 @@
+<!-- FRONT PAGE
+Es la plantilla que WordPress carga por defecto como página de inicio. Está especialmente pensada para que sea un listado de posts, es decir, la portada de un blog.
+  -->
+
 <!-- Archivo de cabecera global de Wordpress -->
 <?php get_header(); ?>
 <!-- Contenido de página de inicio -->
-<?php if ( have_posts() ) : the_post(); ?>
+<?php if ( have_posts() ) : the_post(); ?> FRONTPAGE
 <section>
     <h1>
         <?php the_title(); ?>
