@@ -7,7 +7,23 @@
         <?php bloginfo('name'); ?>
     </title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
-    <?php wp_head(); ?>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- WPHEAD -->
+    <?php 
+    wp_head(); 
+    ?>
+    <!-- //WPHEAD -->
+
 </head>
 
 <body>
@@ -23,6 +39,8 @@
 
     <nav>
         <ul class="main-nav">
-            <?php wp_nav_menu( array( 'theme_location' => 'navegation' ) ); ?>
+            <?php 
+            wp_nav_menu( array( 'theme_location' => 'navegation' ) ); 
+            ?>
         </ul>
     </nav>
