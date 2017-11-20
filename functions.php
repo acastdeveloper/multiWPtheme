@@ -2,7 +2,7 @@
 /* INTEGRAR OPTION TREE AL TEMA */
 
  /* Theme options */
-require_once(get_template_directory().'/inc/theme-options/option-tree/ot-loader.php');
+require_once(get_template_directory().'/option-tree/ot-loader.php');
 
 //INTEGRATE OPTION TREE
 add_filter('ot_theme_mode','__return_true');
@@ -10,10 +10,10 @@ add_filter('ot_theme_mode','__return_true');
 //OCULTAR PAGINA DE DOCUMENTACIO
 add_filter('ot_show_pages','__return_true');
 add_filter( 'ot_show_new_layout', '__return_true' );
+ 
 
-
-
-
+ 
+ 
 
 /* MENUS */
 //Este archivo nos permitirá crear zonas de menú y de widgets, así como personalizar algunos parámetros que WordPress trae por defecto.
