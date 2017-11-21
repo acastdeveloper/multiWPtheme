@@ -26,3 +26,8 @@ require_once( trailingslashit(get_template_directory()).'/functions/css.php');
 
 /* JS */
 require_once( trailingslashit(get_template_directory()).'/functions/js.php');
+
+
+
+/* LESS */
+require_once( trailingslashit(get_template_directory()).'/functions/less.php');
