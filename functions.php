@@ -31,3 +31,7 @@ require_once( trailingslashit(get_template_directory()).'/functions/js.php');
 
 /* LESS */
 require_once( trailingslashit(get_template_directory()).'/functions/less.php');
+
+
+/* AÑADIR PORTFOLIO */
+require_once( trailingslashit(get_template_directory()).'/functions/porfolio.php');
